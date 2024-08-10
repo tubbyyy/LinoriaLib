@@ -3529,6 +3529,8 @@ function Library:CreateWindow(...)
                 Cursor.Thickness = 1;
                 Cursor.Filled = true;
                 Cursor.Visible = true;
+                Cursor.Color = Color3.new(1, 1, 1);
+
 
                 local CursorOutline = Drawing.new('Triangle');
                 CursorOutline.Thickness = 1;
