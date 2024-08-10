@@ -529,6 +529,7 @@ do
             Position = UDim2.new(0, 1, 0, 1);
             BackgroundTransparency = 1;
             Image = 'http://www.roblox.com/asset/?id=9619665977';
+            ImageColor3 = Color3.new(1, 1, 1);
             ZIndex = 20;
             Parent = CursorOuter;
         })
@@ -3529,7 +3530,6 @@ function Library:CreateWindow(...)
                 Cursor.Thickness = 1;
                 Cursor.Filled = true;
                 Cursor.Visible = true;
-                Cursor.Color = Color3.new(1, 1, 1);
 
 
                 local CursorOutline = Drawing.new('Triangle');
